@@ -1,140 +1,190 @@
-
-.banner-color{
+.header-color{
     background-color: #264653;
    height: 700px;
- 
-}
-.banner-img img{
+ }
+
+.banner-img{
+    margin-top: 156px;
+    margin-bottom: 96px;
+ }
   
-
-
-}
-
 .banner-text{
     color: #E0E0E0;
-    
-}
+    font-family: 'Poppins', sans-serif;
+ }
+
 .banner-heder{
+    font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 600;
-    
-}
-.modal-button{
-
-border-radius: 5px;
-padding: px;
-padding-left: 30px;
-padding-right: 30px;
-padding-top: 10px;
-padding-bottom: 10px;
+ }
+ 
+ .modal-button{
+ border-radius: 5px;
+ padding: px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 10px;
+ padding-bottom: 10px;
  background-color:  #E76F51;
-  text-decoration: none;
+ text-decoration: none;
  color:  #FFFFFF;
     
-    
-}
+ }
+
 .modal-button:hover{
     color: black;
     background-color: aqua;
-    
-}
+ }
+
 .fetyred-bikes-part{
+    margin-bottom: 100px;
     margin-top: 64px;
-}
-.fetured-bike{
+ }
+
+.fetured-bike{ 
+    font-weight: 600;
     color: black;
     font-size: 48px;
-    
-}
-.best-bike{
+    font-family: 'Poppins', sans-serif;  
+
+ }
+
+ .best-bike{
     color: #E76F51;
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 120px;
+    font-family: 'Poppins', sans-serif;
     
-}
+ }
 
+ .gryascale{
+    height: 243px;
+    width: 288px;  
+ }   
     
-    
+ .gryascale-3{
+  filter: grayscale(1);
+ height: 243px;
+ width: 288px;
 
-.gryascale-3{
-  
-filter: grayscale(1);
-
-}
-
-    
+ }
 
 .happy-client{
-    margin-top: 160px;
-    margin-bottom: 52px;
-    
-}
-.happy{
-    color: #0A0826;
-    font-size: 48px;
-    
+  margin-top: 160px;
+  margin-bottom: 52px;
+   
+ }
 
-}
+ .happy{
+ color: #0A0826;
+ font-size: 48px;
+ font-weight: 600;
+ font-family: 'Poppins', sans-serif;
+ }
+
 .clients{
     color: #E76F51;
     font-size: 48px;
-    
-}
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+ }
+
 .card-img-top{
     height: 149px;
     width: 149px;
+    margin: auto;
    
-    
-   margin: auto;
-   
-    
-   
-    
+ }
+
+.card-text{
+
+    font-weight: 400;
 }
+
 .color{
 color:  #E77C40;
 
-
-
 }
+
 .color-2{
     color:  #E77C40; 
-  
+ 
 }
+
 .litile-p{
     color:  #23A6F0;
-    
+    font-weight: 600;
 }
+
 .litile-p-2{
     color: #252B42;
-   
+   font-weight: 600;
 }
+
 .card-body i{
     width: 22px;
     height: 22px;
 }
+
 .f-a-q{
-    margin-top: 160px;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 158px;
     margin-bottom: 112px;
 }
+
 .accordion img{
     height: 397px;
 width: 424px;
 
-
 }
+
 .accordion{
     margin-bottom: 139px;
 }
+
 .button{
-    height: 44px;
-width: 91px;
-background-color: #E76F51;
+ height: 44px;
+ width: 91px;
+ background-color: #E76F51;
+ border-radius: 5px;
+ padding: 10px, 24px, 10px, 24px;
+  color: white;
 
-
-border-radius: 5px;
-padding: 10px, 24px, 10px, 24px;
-
-    color: white;
 }
+
+.carousel-bg{
+    background-color: #264653 ;
+    color: white;
+    padding: 20px;
+}
+
+.Subscribe{
+    padding-right: 100px;
+}
+
+.btn{
+    border-radius: 5px;
+     background-color:  #E76F51;
+      color:  #FFFFFF;
+     font-weight: 600;
+ }
+
+.btn:hover{
+    color: #E76F51;
+   background-color: white;
+   
+}
+
+.me-5{
+    font-family: 'Poppins', sans-serif;   
+} 
+
+.card-body{
+     
+  font-family: 'Poppins', sans-serif; 
+  color:  #6C6C6C;
+} 
+   
+   
+     

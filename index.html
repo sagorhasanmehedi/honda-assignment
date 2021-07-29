@@ -8,67 +8,31 @@
     <title>Assignment-3</title>
 
     <!-- font awsome -->
+
     <script src="https://kit.fontawesome.com/6fb58bcf56.js" crossorigin="anonymous"></script>
 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-
-
-
     <!-- bootstrap css -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <header class="banner-color">
-        <!-- navbar -->
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-5 mt-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white  p-4 " aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-white  p-4" aria-current="page" href="#">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-white  p-4" aria-current="page" href="#">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-white pe-5 me-5 p-4" aria-current="page"
-                                    href="#">Contact</a>
-                            </li>
 
+    <!-------------------------------- header start ------------------------------>
 
-                        </ul>
+    <header class="header-color">
 
+        <!--Top bannar -->
 
-                        <button class="button">Login</button>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- bannar -->
         <section class="container">
             <div class="row row-cols-lg-2 align-items-center  ">
                 <div>
-
                     <p class="banner-text">
                         Computer-controlled digital transistorized with electronic advance
                     </p>
@@ -77,11 +41,12 @@
                     <p class="banner-text">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet
                         sint.
                         Velit officia
-                        consequat duis enim velit <br>mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        consequat duis enim velit <br>mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
 
 
+                    <!-- modal section -->
 
-                    <!-- modal -->
                     <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
                         aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                         <div class="modal-dialog modal-dialog-centered">
@@ -142,6 +107,9 @@
                         Purchase
                     </a>
                 </div>
+
+                <!-- banner img -->
+
                 <div class="banner-img">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
@@ -149,15 +117,22 @@
         </section>
 
     </header>
-    <main>
-        <section class="container d-flex justify-content-center">
-            <div class=" fetyred-bikes-part">
-                <h1 class="fetured-bike">Fetured Bikes 2021</h1>
-                <p class="best-bike d-flex justify-content-center">Best bike collection</p>
-            </div>
-        </section>
-        <section class="container">
 
+    <!-------------------------------- header end -------------------------------->
+
+    <!-------------------------------- main start --------------------------------->
+
+    <main>
+
+        <!-- Fetured Bikes 2021 section -->
+
+        <section class="container">
+            <div class="container d-flex justify-content-center">
+                <div class=" fetyred-bikes-part">
+                    <h1 class="fetured-bike">Fetured Bikes 2021</h1>
+                    <p class="best-bike d-flex justify-content-center">Best bike collection</p>
+                </div>
+            </div>
             <div class="row row-cols-lg-3">
                 <div>
                     <img class="gryascale-3 img-fluid" src="images/feature-bike.jpg" alt="">
@@ -171,15 +146,16 @@
                 </div>
             </div>
         </section>
-        <section class="container  ">
-            <div class="d-flex justify-content-center happy-client">
 
-                <h1> <span class="happy">Happy</span>
-                    <span class="clients">Clients says</span>
-                </h1>
-            </div>
-            <!-- card section -->
+        <!-- happy Clients section -->
+
+        <section class="container  ">
             <section class="container">
+                <div class="d-flex justify-content-center happy-client">
+                    <h1> <span class="happy">Happy</span>
+                        <span class="clients">Clients says</span>
+                    </h1>
+                </div>
                 <div>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
@@ -192,7 +168,7 @@
                                         many more days you need <br>
                                         to work to reach your financial <br>
                                         goal for the month and year.</p>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center pb-2">
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
@@ -217,7 +193,7 @@
                                         many more days you need <br>
                                         to work to reach your financial <br>
                                         goal for the month and year.</p>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center pb-2">
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
@@ -242,7 +218,7 @@
                                         many more days you need <br>
                                         to work to reach your financial <br>
                                         goal for the month and year.</p>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center pb-2">
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
                                         <i class="fas fa-star color"></i>
@@ -263,7 +239,9 @@
             </section>
 
         </section>
+
         <!-- accordion section -->
+
         <section class="container">
             <div class="f-a-q d-flex justify-content-center">
                 <h1>
@@ -360,11 +338,46 @@
             </section>
         </section>
 
+        <!-- LET'S STAY IN TOUCH section -->
+
+        <section class=" carousel-bg container mt-5 mb-5 d-flex justify-content-center ">
+            <div id="Subscribe ">
+                <div class="me-5">
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p>Get updates on sales, specials and more</p>
+                </div>
+
+                <div class="row col-lg-12 ">
+
+                    <div class=" d-flex row row-cols-lg-1">
+                        <input type="email" class="form-control" id="colFormLabel">
+                        <input class="btn  mt-2" type="submit" value="Log in">
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
     </main>
+
+    <!---------------------------------- main end -------------------------------->
+
+    <!--------------------------------- footer start ------------------------------>
+
     <footer>
 
+        <!-- footer section -->
+
+        <section class="container d-flex justify-content-center pt-5 mt-5">
+            <small>©2030. Panda Commerce. All rights reserved. honda, US.</small>
+        </section>
     </footer>
+
+    <!-- footer end -->
+
     <!-- bootstrap js -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
